@@ -1,1 +1,7 @@
 @use '../abstracts/mixins' as mixin;
+
+@include mixin.font-face(
+  $font-family: 'Josefin Sans',
+  $font-path: '../assets/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf',
+  $font-weight: 300 600
+);
