@@ -13,6 +13,7 @@ body {
 .heading {
   font-weight: var(--heading-fw);
   font-size: var(--heading-fs);
+  line-height: var(--heading-leading);
   color: var(--heading-color);
 
   span {
