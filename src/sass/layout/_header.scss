@@ -1,1 +1,6 @@
 @use '../abstracts/' as abstract;
+
+.page-header {
+  padding: var(--page-header-padding);
+  background-color: var(--page-header-bg);
+}
