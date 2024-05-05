@@ -52,4 +52,15 @@
   // ---------- BODY
   --body-bg-img-url: url('../assets/images/bg-pattern-desktop.svg');
   --body-bg-color: hsl(var(--color-neutral-150));
+
+  // ---------- LAYOUT
+
+  // ----- Header
+  --page-header-padding: 2rem;
+  --page-header-bg: hsl(var(--color-neutral-100));
+
+  @media (min-width: 48em) {
+    --page-header-padding: 4rem 0 0;
+    --page-header-bg: transparent;
+  }
 }
