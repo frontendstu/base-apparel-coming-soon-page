@@ -13,6 +13,7 @@ body {
 
   span {
     font-weight: var(--heading-span-fw);
+    letter-spacing: var(--heading-span-tracking);
     color: var(--heading-span-color);
   }
 }
