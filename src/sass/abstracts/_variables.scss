@@ -5,4 +5,41 @@
   --color-primary: 0, 36%, 70%;
   --color-secondary: 0, 74%, 74%;
   --color-error: 0, 92%, 68%;
+
+  // ---------- TYPOGRAPHY
+
+  // -----  Fonts
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-semibold: 600;
+
+  --fs-100: 0.8125rem; // 13px
+  --fs-200: 0.875rem; // 14px
+  --fs-300: 2.5rem; // 40px
+
+  --ff-primary: 'Josefin Sans', sans-serif;
+
+  // ----- Leading
+  --leading-100: 1.375em;
+  --leading-200: 2.625em;
+  --leading-300: var(--leading-300);
+
+  // ----- Tracking
+  --tracking-heading: 10.83px;
+
+  // ----- Copy
+  --copy-font: var(--fw-regular) var(--fs-200) var(--ff-primary);
+  --copy-leading: var(--leading-100);
+  --copy-color: hsl(var(--color-primary));
+
+  @media (min-width: 48em) {
+    --fs-200: 1rem; // 16px
+    --fs-300: 4rem; // 64px
+
+    --leading-100: 1.75em;
+    --leading-200: 4em;
+    --leading-300: 4.4375em;
+
+    --tracking-heading: 17.32px;
+  }
 }
