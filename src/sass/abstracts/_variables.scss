@@ -32,6 +32,13 @@
   --copy-leading: var(--leading-100);
   --copy-color: hsl(var(--color-primary));
 
+  // ----- Heading
+  --heading-fw: var(--fw-semibold);
+  --heading-span-fw: var(--fw-light);
+  --heading-fs: var(--fs-300);
+  --heading-color: hsl(var(--color-neutral-800));
+  --heading-span-color: hsl(var(--color-primary));
+
   @media (min-width: 48em) {
     --fs-200: 1rem; // 16px
     --fs-300: 4rem; // 64px
