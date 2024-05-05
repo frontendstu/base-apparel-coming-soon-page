@@ -11,6 +11,7 @@ body {
 }
 
 .heading {
+  text-transform: var(--heading-text-transform);
   font-weight: var(--heading-fw);
   font-size: var(--heading-fs);
   line-height: var(--heading-leading);
