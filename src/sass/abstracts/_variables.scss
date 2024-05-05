@@ -32,9 +32,11 @@
 
   // ----- Heading
   --heading-fw: var(--fw-semibold);
-  --heading-span-fw: var(--fw-light);
   --heading-fs: var(--fs-300);
   --heading-color: hsl(var(--color-neutral-800));
+
+  --heading-span-fw: var(--fw-light);
+  --heading-span-tracking: var(--tracking-heading);
   --heading-span-color: hsl(var(--color-primary));
 
   @media (min-width: 48em) {
