@@ -4,6 +4,9 @@ body {
   font: var(--copy-font);
   line-height: var(--copy-leading);
   color: var(--copy-color);
+  background-image: var(--body-bg-img-url);
+  background-position: no-repeat;
+  background-size: cover;
 }
 
 .heading {
