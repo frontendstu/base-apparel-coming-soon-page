@@ -5,3 +5,15 @@ body {
   line-height: var(--copy-leading);
   color: var(--copy-color);
 }
+
+.heading {
+  font-weight: var(--heading-fw);
+  font-size: var(--heading-fs);
+  line-height: var(--leading-300);
+  color: var(--heading-color);
+
+  span {
+    font-weight: var(--heading-span-fw);
+    color: var(--heading-span-color);
+  }
+}
